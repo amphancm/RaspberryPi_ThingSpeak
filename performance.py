@@ -11,7 +11,9 @@ from PIL import ImageFont
 disk = os.statvfs("/")
 used = disk.f_bsize * (disk.f_blocks - disk.f_bavail)
 sleep = 30 				  # how many seconds to sleep between posts to the channel
-key = 'ZG8WMLWF4PBQQVFB'  # Write Key Thingspeak channel to update
+key = 'ZG8WMLWF4PBQQVFB'                  # Write Key Thingspeak channel to update
+# THIS IS MY KEY for THINGSPEAK Channel 238835
+# YOUR MUST CHANGE to YOUR WRITE KEY
 
 #Report Raspberry Pi internal temperature to Thingspeak Channel
 def performance():
